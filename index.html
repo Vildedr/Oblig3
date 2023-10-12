@@ -8,6 +8,7 @@
     </head>
     <body>
         <header>
+            <!--Hamburger-meny (link retursiden HER!), hjem ikon, logo ved hjelp av font, handlekurv ikon-->
             <nav>
                 <span>
                     <a href="index.html">Hjem</a>
@@ -16,32 +17,64 @@
                     <a href="#">Handlekurv</a>
                 </span>
             </nav>
-            <h1>Velkommen til skobutikken</h1>
         </header>
         <main>
+            <h1>Velkommen til skobutikken</h1>
             <section id="knapper">
-                <button type="button">Herresko</button>
-                <button type="button">Damesko</button>
-                <button type="button">Tilbehør</button>
+                <a href="produkt.html">
+                    <button type="button">Herresko</button>
+                    <button type="button">Damesko</button>
+                </a>
+                <a href="#">
+                    <button type="button">Tilbehør</button>
+                </a>
+            </section>
+            <!--Dette er kun bilder til pynt, skal ikke være synlig på mobil-->
+            <section>
+                <figure>
+                    <img src="img/boots.jpg" alt="bilde av sko som står i løv">
+                    <figcaption>
+                        <p>Bildet er tatt av <a href="https://pixabay.com/no/users/stocksnap-894430/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2600287">StockSnap</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2600287">Pixabay</a></p>
+                    </figcaption>
+                </figure>
             </section>
             <section>
-                <img src="img/boots.jpg" alt="bilde av sko som står i løv">
+                <figure>
+                    <img src="img/tursko.jpg" alt="bilde av tursko i natur">
+                    <figcaption>
+                        <p>Bildet er tatt av <a href="https://pixabay.com/no/users/marina_kratko-23099684/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6596161">Marina Kratko</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6596161">Pixabay</a></p>
+                    </figcaption>
+                </figure>
             </section>
             <section>
-                <img src="img/tursko.jpg" alt="bilde av tursko i natur">
-            </section>
-            <section id="annonse">
-                <h2>Høstens bestselgere</h2>
-                <article>
-                    <img src="img/knyte.jpg" alt="bilde av brune tursko">
+                <aside>
+                    <h2>Høstens bestselgere</h2>
+                    <figure>
+                        <img src="img/knyte.jpg" alt="bilde av brune tursko">
+                        <figcaption>
+                            <p>Bildet er tatt av <a href="https://pixabay.com/no/users/hans-2/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3082">Hans</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3082">Pixabay</a></p>
+                        </figcaption>
+                    </figure>
                     <h3>Jotunheimen Tursko</h3>
                     <p>Unisex</p>
                     <p>699 kr</p>
                     <a href="produkt.html" class="read-more-btn">Se på sko</a>
-                </article>
+                </aside>
+            </section>
+            <!--Legg inn forstørrelsesglass ikon og spørsmålstegn på hjelp knappen-->
+            <section>
+                <input type="text" placeholder="Søk blant produkter...">
+                <button> ? </button>
             </section>
         </main>
         <footer>
+            <h3>Kontaktinformasjon</h3>
+            <p>Adresse</p>
+            <p>Telefon</p>
+            <p>E-post</p>
+            <h3>Sosiale medier</h3>
+            <p>Facebook</p>
+            <h4>Nettside laget av Vilde Dybli Raaden 2023</h4>
         </footer>
     </body>
 </html>
