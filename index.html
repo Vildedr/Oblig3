@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1,0">
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css"> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Forside</title>
     </head>
@@ -11,34 +12,28 @@
             <!--Hamburger-meny (link retursiden HER!), hjem ikon, logo ved hjelp av font, handlekurv ikon-->
             <nav>
                 <span>
-                    <a href="index.html">Hjem</a>
-                    <a href="#">Meny</a>
+                    <a href="#" class="fa-solid fa-bars"></a>
+                    <a href="index.html" class="fa-solid fa-house-chimney"></a>
                     <a href="index.html">Logo</a>
-                    <a href="#">Handlekurv</a>
+                    <a href="#" class="fa-solid fa-cart-shopping"></a>
                 </span>
             </nav>
+            <h1>Velkommen til skobutikken!</h1>
         </header>
         <main>
-            <h1>Velkommen til skobutikken</h1>
-            <section id="knapper">
-                <a href="produkt.html">
-                    <button type="button">Herresko</button>
-                    <button type="button">Damesko</button>
-                </a>
-                <a href="#">
-                    <button type="button">Tilbehør</button>
-                </a>
+            <section>
+                <a href="produkt.html" class="knapper">Herresko</a>
+                <a href="produkt.html" class="knapper">Damesko</a>
+                <a href="#" class="knapper">Tilbehør til sko</a>
             </section>
             <!--Dette er kun bilder til pynt, skal ikke være synlig på mobil-->
-            <section>
+            <section id="pynt">
                 <figure>
                     <img src="img/boots.jpg" alt="bilde av sko som står i løv">
                     <figcaption>
                         <p>Bildet er tatt av <a href="https://pixabay.com/no/users/stocksnap-894430/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2600287">StockSnap</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2600287">Pixabay</a></p>
                     </figcaption>
                 </figure>
-            </section>
-            <section>
                 <figure>
                     <img src="img/tursko.jpg" alt="bilde av tursko i natur">
                     <figcaption>
@@ -64,17 +59,24 @@
             <!--Legg inn forstørrelsesglass ikon og spørsmålstegn på hjelp knappen-->
             <section>
                 <input type="text" placeholder="Søk blant produkter...">
-                <button> ? </button>
             </section>
         </main>
         <footer>
-            <h3>Kontaktinformasjon</h3>
-            <p>Adresse</p>
-            <p>Telefon</p>
-            <p>E-post</p>
-            <h3>Sosiale medier</h3>
-            <p>Facebook</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Om oss</a></li>
+                    <li><a href="#">Kontaktinformasjon</a></li>
+                    <li><a href="#">Sosialemedier</a></li>
+                </ul>
+            </nav>
             <h4>Nettside laget av Vilde Dybli Raaden 2023</h4>
         </footer>
+        <!--Se forelesningen fra 16/10 for hambureger meny-->
+        <script>
+            let ham=document.getElementByIde("")
+            ham.addEventListener("click", ()) =>{
+                console.log("")
+            }
+        </script>
     </body>
 </html>

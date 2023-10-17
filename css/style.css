@@ -2,3 +2,10 @@ body{
     background-color:rgba(105, 144, 103, 0.707);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (max-width: 500px){
+
+    #pynt{
+        display: none;
+    }
+}
