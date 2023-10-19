@@ -3,6 +3,23 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    grid-area: topp;
+}
+
+main{
+    grid-area: hovedomraade;
+}
+
+article{
+    grid-area: artikler;
+}
+
+footer{
+    grid-area: baan;
+}
+
+
 /**Denne styrer alle linkene**/
 a{
     text-decoration: none;
