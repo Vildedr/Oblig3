@@ -29,6 +29,9 @@
             </nav>
         </header>
         <main>
+            <div id="flytende-hjemknapp">
+                <li><a href="index.html" class="fa-solid fa-house-chimney"></a></li>
+            </div>
             <section>
                 <figure>
                     <img src="img/knyte.jpg" alt="bilde av brune tursko">
@@ -61,10 +64,34 @@
                 <p>699 kr</p>
             </section>
             <section>
-                <button type="button">Velg farge</button>
-                <button type="button">Velg størrelse</button>
+                <label>Velg farge</label>
+                <select id="velg-farge">
+                    <option value="Brun">Brun</option>
+                </select>
+                <label>Velg størrelse</label>
+                <select id="velg-størrelse">
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                </select>
                 <button type="button">Legg i handlekurven</button>
             </section>
+            <article>
+                <h3>Produktinformasjon</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie tellus vitae augue iaculis, vel laoreet velit posuere. Etiam tellus sem, aliquet sodales risus eu, pellentesque fringilla mauris. Nulla ultricies, mauris in accumsan aliquet, enim enim tristique sapien, sit amet convallis ligula libero at sapien. Donec eget fringilla urna. Morbi maximus tortor ac aliquet eleifend.</p>
+                <h3>Frakt og levering</h3>
+                <p>Sed finibus elit odio, sagittis consectetur sapien blandit id. Nam viverra mauris at leo dignissim, vel convallis justo aliquet. Aliquam et ornare nunc. Aliquam feugiat vitae odio ultrices luctus.</p>
+                <h3>Kundeanmeldelser (3)</h3>
+                <p>Nora Nordmann "Ut magna magna, varius id facilisis eu, sodales at arcu."</p>
+                <p>Per Person "Quisque nisi elit."</p>
+                <p>Ola Olsen "In sit amet urna ligula. Donec sed nisi ac nibh bibendum sagittis."</p>
+            </article>
         </main>
         <footer>
             <nav>

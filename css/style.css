@@ -4,19 +4,22 @@ body{
 }
 
 header{
-    grid-area: topp;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
 }
 
-main{
-    grid-area: hovedomraade;
+header h1{
+    font-size: 25px;
 }
 
-article{
-    grid-area: artikler;
-}
-
-footer{
-    grid-area: baan;
+/**Hjemknapp på produktsiden*/
+#flytende-hjemknapp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 300px;
+    text-decoration: none;
 }
 
 
