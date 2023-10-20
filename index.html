@@ -8,15 +8,14 @@
         <title>Forside</title>
     </head>
     <body>
+        <div id="grid-container">
         <header>
             <nav>
-                <span>
-                    <a id="logo" href="index.html">Skobutikken</a>
-                </span>
-                <ul id="topp">
+                <ul>
                     <li><a id="ham" class="fa-solid fa-bars"></a></li>
-                    <li><a href="index.html" class="fa-solid fa-house-chimney"></a></li>
-                    <li><a href="#" class="fa-solid fa-cart-shopping"></a></li>
+                    <li><a id="hjem" href="index.html" class="fa-solid fa-house-chimney"></a></li>
+                    <a id="logo" href="index.html">Skobutikken</a>
+                    <li><a id="handlekurv" href="#" class="fa-solid fa-cart-shopping"></a></li>
                 </ul>
                 <ul class="navbar">
                     <li><a href="produkt.html">Herresko</a></li>
@@ -27,37 +26,22 @@
                     <li><a href="#">Kontaktinformasjon</a></li>
                 </ul>
             </nav>
-            <h1>Velkommen til skobutikken!</h1>
         </header>
         <main>
-            <section>
+            <h1>Velkommen til skobutikken!</h1>
+            <section id="kategori">
                 <a href="produkt.html" class="knapper">Herresko</a>
                 <a href="produkt.html" class="knapper">Damesko</a>
                 <a href="#" class="knapper">Tilbehør til sko</a>
             </section>
-              <section>
-                <input type="text" placeholder="Søk blant produkter...">
+              <section id="search">
+                <input class="searchbar" type="text" placeholder="Søk blant produkter...">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-question"></i>
             </section>
-            <!--Dette er kun bilder til pynt, skal ikke være synlig på mobil-->
-            <section id="pynt">
-                <figure>
-                    <img src="img/boots.jpg" alt="bilde av sko som står i løv">
-                    <figcaption>
-                        <p>Bildet er tatt av <a href="https://pixabay.com/no/users/stocksnap-894430/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2600287">StockSnap</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2600287">Pixabay</a></p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="img/tursko.jpg" alt="bilde av tursko i natur">
-                    <figcaption>
-                        <p>Bildet er tatt av <a href="https://pixabay.com/no/users/marina_kratko-23099684/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6596161">Marina Kratko</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6596161">Pixabay</a></p>
-                    </figcaption>
-                </figure>
-            </section>
             <section>
                 <article>
-                    <h2>Høstens bestselgere</h2>
+                    <h2>Dette er høstens bestselgere!</h2>
                     <figure>
                         <img src="img/knyte.jpg" alt="bilde av brune tursko">
                         <figcaption>
@@ -81,6 +65,7 @@
             </nav>
             <h4>Nettside laget av Vilde Dybli Raaden 2023</h4>
         </footer>
+        </div>
 
         <script>
             let x = document.querySelector(".navbar")

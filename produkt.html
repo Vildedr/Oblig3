@@ -8,15 +8,14 @@
         <title>Produktside</title>
     </head>
     <body>
+        <div id="grid-container">
         <header>
             <nav>
-                <span>
-                    <a href="index.html">Skobutikken</a>
-                </span>
                 <ul>
                     <li><a id="ham" class="fa-solid fa-bars"></a></li>
-                    <li><a href="index.html" class="fa-solid fa-house-chimney"></a></li>
-                    <li><a href="#" class="fa-solid fa-cart-shopping"></a></li>
+                    <li><a id="hjem" href="index.html" class="fa-solid fa-house-chimney"></a></li>
+                    <a id="logo" href="index.html">Skobutikken</a>
+                    <li><a id="handlekurv" href="#" class="fa-solid fa-cart-shopping"></a></li>
                 </ul>
                 <ul class="navbar">
                     <li><a href="produkt.html">Herresko</a></li>
@@ -29,10 +28,7 @@
             </nav>
         </header>
         <main>
-            <div id="flytende-hjemknapp">
-                <li><a href="index.html" class="fa-solid fa-house-chimney"></a></li>
-            </div>
-            <section>
+            <section id="produkt">
                 <figure>
                     <img src="img/knyte.jpg" alt="bilde av brune tursko">
                     <figcaption>
@@ -49,12 +45,6 @@
                     <img src="img/lisser.jpg" alt="nærbilde av lissene">
                     <figcaption>
                         <p>Bildet er tatt av <a href="https://pixabay.com/no/users/rupixen-11154019/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4345636">Free stock photos from www.rupixen.com</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4345636">Pixabay</a></p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="img/tur.jpg" alt="bilde av skoene i bruk">
-                    <figcaption>
-                        <p>Bildet er tatt av <a href="https://pixabay.com/no/users/republica-24347/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=792800">Republica</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=792800">Pixabay</a></p>
                     </figcaption>
                 </figure>
             </section>
@@ -103,6 +93,7 @@
             </nav>
             <h4>Nettside laget av Vilde Dybli Raaden 2023</h4>
         </footer>
+        </div>
         <script>
             let x = document.querySelector(".navbar")
             document.getElementById("ham").addEventListener("click", (e) => {
